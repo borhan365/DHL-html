@@ -1,0 +1,309 @@
+
+
+/* MD Device: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+/* Mobile device */
+@media (min-width: 768px){
+   .desktopHide {
+       display: none;
+   }
+   .footer-mobile-logo {
+       display: none;
+   }
+   
+}
+
+/* Mobile devies max width */
+@media (max-width: 767px) {
+    .mobileHide {
+        display: none;
+    }
+    header {
+        display: none;
+    }
+    .hero-slider-contnet {
+        width: unset;
+        max-width: 86%;
+        padding: 10px;
+        top: 8%;
+    }
+    .hero-slider-items{
+        height: 300px;
+    }
+    .hero-slider-contnet > h2 {
+        font-size: 25px;
+        line-height: 32px;
+        margin-bottom: 26px;
+    }
+    .hero-button {
+        padding: 6px 25px;
+        position: absolute;
+        bottom: -15px;
+        font-size: 13px;
+    }
+    .box-wrapper{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: unset;
+    }
+    .big-featured-wrapper{
+        height: 245px;
+        background-image: linear-gradient(black, #0000), url(/assets/images/banner/big.jpg);
+    }
+    .big-featured-content h2{
+        font-size: 20px;
+    }
+    .three-column-wrapper{
+        display: grid;
+    }
+    .three-column-item h2{
+        font-size: 14px;
+    }
+    .big-featured-content button {
+        padding: 4px 14px;
+        font-size: 14px;
+    }
+    .big-upcomming-change{
+        margin-bottom: 8px;
+    }
+    .industry-sector-title h2{
+        font-size: 18px;
+    }
+    .industry-icon-item p{
+        font-size: 12px;
+    }
+    .big-our-division-contnet{
+        top: 8%;
+        max-width: 90%;
+    }
+    .big-featured-content p{
+        font-size: 13px;
+    }
+    .industry-sector-title p {
+        font-size: 13px;
+        padding: 0px 10px;
+    }
+    .industry-icon-wrapper{
+        grid-template-columns: auto auto;
+    }
+    .industry-icon-item img{
+        width: 90px;
+    }
+    .more-about-title h2 {
+        font-size: 20px;
+        margin-bottom: 13px;
+    }
+    .more-about-wrapper {
+        grid-template-columns: auto;
+        margin: 17px 0;
+    }
+    .main-footer-wrapper {
+        flex-direction: column;
+    }
+    .right-social-item{
+        margin-top: 20px;
+    }
+    .partner-wrapper {
+        grid-template-columns: auto auto auto;
+    }
+    .partner-item{
+        margin-bottom: 10px;
+        width: 80px;
+    }
+    .footer-left-item li{
+        padding-bottom: unset;
+    }
+    .footer-left-item h6 {
+        margin-bottom: 5px;
+    }
+    footer{
+        padding: unset;
+    }
+    .innovation-btn{
+        padding: 6px 25px !important;
+    }
+    .single-banner-section{
+        height: 128px;
+    }
+    .single-content-wrapper h2 {
+        padding: 20px 6px;
+        font-size: 18px;
+    }
+    .single-bottom-contnet h2 {
+        padding: 7px 13px;
+        font-size: 17px;
+    }
+    .more-about-title h2{
+        margin-bottom: 0px;
+    }
+    .more-about-title{
+        margin-top: 20px;
+    }
+    .single-content-wrapper p{
+        font-size: 14px;
+        font-weight: lighter;
+    }
+    .page-content-wrapper h2 {
+        padding: 6px 18px;
+        font-size: 17px;
+    }
+    .more-about-content h2{
+        font-size: 18px;
+        background: -webkit-linear-gradient(left,#FFB900,#FF8C00,#F7630C,#E74856,#E81123,#0078D7,#0063B1);
+            background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: #303F9F;
+    }
+    .more-about-content p{
+        font-size: 13px;
+    }
+    .more-about-content {
+        padding: 10px;
+    }
+    .more-about-content button {
+        padding: 5px 30px;
+        font-size: 14px;
+    }
+    .single-bottom-contnet{
+        padding: unset;
+    }
+    .partner-item:last-child{
+        display: none;
+    }
+    .new-main-footer{
+        display: none;
+    }
+    .new-footer-bottom-wrapper {
+        flex-direction: column;
+        border: unset;
+        width: 100%;
+    }
+    .form-area {
+        display: none;
+    }
+    .right-social-item h2{
+        text-align: center;
+    }
+    .footer-mobile-logo {
+        margin-bottom: 3px;
+    }
+
+    /* about us */
+    .about-us-section{
+        height: 200px;
+        background-image: linear-gradient(#0000006e, #ffffffc7), url(../images/banner/hp.webp);
+    }
+    .about-us-hero-content h2{
+        font-size: 22px;
+    }
+    .about-us-hero-content i {
+        font-size: 42px;
+        margin-top: 5px;
+    }
+    .about-us-navigation a{
+        font-size: 12px;
+    }
+    .about-us-content-title p{
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .about-us-big h2{
+        font-size: 22px;
+    }
+    .about-us-big-section{
+        height: 165px;
+    }
+    .ourteam-section{
+        padding: 20px 0;
+    }
+    .our-team-title h2 {
+        font-size: 19px;
+        margin-bottom: 8px;
+    }
+    .explore-blog-title h2 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .about-us-blog-wrapper{
+        grid-template-columns: auto;
+    }
+    .about-us-blog-featured-image{
+        height: 175px;
+    }
+    .about-us-box-content h2 {
+        font-size: 16px;
+    }
+    .about-us-box-content {
+        padding: 15px 10px;
+        padding-bottom: 18px;
+    }
+    .about-us-box-content p {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .explore-section{
+        padding: unset;
+    }
+    .box-content span{
+        font-size: 11px;
+    }
+    .box-thumb{
+        width: 60px;
+        height: 60px;
+    }
+    .box-item:last-child{
+        display: none;
+    }
+    .featured-brand-title h2 {
+        font-size: 19px;
+        background: -webkit-linear-gradient(left,#FFB900,#FF8C00,#F7630C,#E74856,#E81123,#0078D7,#0063B1);
+            background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: #303F9F;
+    }
+    .featured-brand-title{
+        padding-bottom: 5px;
+    }
+    .ClickTop {
+        display: none;
+    }
+    .traking-form {
+        width: 100%;
+    }
+    .traking-form > .input-group > input {
+        width: 100px;
+        height: 39px;
+        font-size: 13px;
+    }
+    .traking-order{
+        height: 370px;
+    }
+    .traking-title h2{
+        font-size: 28px;
+    }
+}
+
+
+/* sm Device */
+
+@media only screen and (min-width: 451px) and (max-width: 767px) {
+
+}
+@media all and (max-width:767px){
+    .col-sm-12 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+}
+/* extra small */
+@media only screen and (max-width: 450px) {
+   
+   
+}
